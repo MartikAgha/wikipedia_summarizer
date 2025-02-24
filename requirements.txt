@@ -10,3 +10,4 @@ matplotlib
 openai
 langchain
 beautifulsoup4
+flask
