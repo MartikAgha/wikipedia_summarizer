@@ -2,13 +2,20 @@
 <html>
 <head>
     <title>Wikipedia Summary</title>
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='style.css') }}">
 </head>
 <body>
-    <h2>Wikipedia Summary</h2>
-    <p><strong>Article URL:</strong> <a href="{{ wiki_url }}" target="_blank">{{ wiki_url }}</a></p>
-    <h3>Summary</h3>
-    <p>{{ summary }}</p>
-    <a href="/">Search Again</a>
+    <div class="container">
+        <h2>Wikipedia Summary</h2>
+        
+        <div class="result-container">
+            <p><strong>Article URL:</strong> <a href="{{ wiki_url }}" target="_blank">{{ wiki_url }}</a></p>
+            <h3>Summary</h3>
+            <p>{{ summary }}</p>
+        </div>
+
+        <a href="/"><button>Search Again</button></a>
+    </div>
 </body>
 </html>
 
