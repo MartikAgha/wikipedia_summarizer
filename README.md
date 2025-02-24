@@ -112,5 +112,6 @@ Ensure your OpenAI account has funds (OpenAI requires a billing setup).
 ## Author
 
 Developed by [Martik Aghajanian](www.linkedin.com/in/martik-aghajanian)
+
 Feel free to contribute or reach out for any questions.
 
